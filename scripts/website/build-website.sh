@@ -4,21 +4,21 @@ export PATH=$PATH:/bin:/sbin:/usr/bin:/usr/sbin::/usr/local/bin
 
 echo $PATH
 
-git branch -D gh-pages
+# git branch -D gh-pages
 
-git checkout -b gh-pages
+# git checkout -b gh-pages
 
-pwd
+# pwd
 
-echo "\033[49;32m \n******* start build website *******\n \033[0m"
+# echo "\033[49;32m \n******* start build website *******\n \033[0m"
 
-echo "\033[49;32m \n******* installing dependencies *******\n \033[0m"
+# echo "\033[49;32m \n******* installing dependencies *******\n \033[0m"
 
-pnpm i
+# pnpm i
 
-echo "\033[49;32m \n******* building dependencies *******\n \033[0m"
+# echo "\033[49;32m \n******* building dependencies *******\n \033[0m"
 
-pnpm build:lib
+# pnpm build:lib
 
 # echo "\033[49;32m \n******* removing node_modules *******\n \033[0m"
 
@@ -40,7 +40,7 @@ pnpm build:lib
 
 echo "\033[49;32m \n******* building webite *******\n \033[0m"
 
-pnpm build:site
+# pnpm build:site
 
 echo "\033[49;32m \n******* copy website assets *******\n \033[0m"
 

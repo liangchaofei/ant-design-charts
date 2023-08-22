@@ -1,10 +1,9 @@
 import { flow, transformOptions } from '../../utils';
 import { coordinate } from '../../components';
-
 import type { Adaptor } from '../../types';
-import type { PieOptions } from './type';
+import type { RoseOptions } from './type';
 
-type Params = Adaptor<PieOptions>;
+type Params = Adaptor<RoseOptions>;
 
 /**
  * @param chart

@@ -11,6 +11,7 @@ export type { TinyLineOptions } from './plots/tiny-line';
 export type { TinyAreaOptions } from './plots/tiny-area';
 export type { TinyColumnOptions } from './plots/tiny-column';
 export type { TinyProgressOptions } from './plots/tiny-progress';
+export type { TinyRingProgressOptions } from './plots/tiny-ring-progress';
 export type { RoseOptions } from './plots/rose';
 export type { WaterfallOptions } from './plots/waterfall';
 export type { HistogramOptions } from './plots/histogram';
@@ -31,6 +32,7 @@ import { TinyLine } from './plots/tiny-line';
 import { TinyArea } from './plots/tiny-area';
 import { TinyColumn } from './plots/tiny-column';
 import { TinyProgress } from './plots/tiny-progress';
+import { TinyRingProgress } from './plots/tiny-ring-progress';
 import { Rose } from './plots/rose';
 import { Waterfall } from './plots/waterfall';
 import { Histogram } from './plots/histogram';
@@ -52,6 +54,7 @@ export const Plots = {
   TinyArea,
   TinyColumn,
   TinyProgress,
+  TinyRingProgress,
   Waterfall,
   Histogram,
   Heatmap,
